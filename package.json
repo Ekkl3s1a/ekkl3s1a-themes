@@ -4,7 +4,7 @@
   "publisher": "ekkl3s1a",
   "description": "A set of personalized dark color themes: Burgundy, Teal/Turquoise, Purple/Pink and Star Trek: LCARS.",
   "icon": "images/icon.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.120.0"
   },
