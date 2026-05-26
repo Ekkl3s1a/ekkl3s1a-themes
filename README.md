@@ -1,6 +1,6 @@
 # EKKL3S1A Themes
 
-> **Version 0.0.1** · [Changelog](CHANGELOG.md)
+> **Version 0.0.2** · [Changelog](CHANGELOG.md)
 
 A collection of four handcrafted dark themes for Visual Studio Code, optimised for Angular, TypeScript, RxJS, and HTML development.
 
@@ -92,6 +92,34 @@ A cool, refreshing dark theme built around teal and turquoise tones with green a
 
 ---
 
+### 🖖 Star Trek: LCARS
+
+A distinctive dark theme inspired by the iconic LCARS (Library Computer Access/Retrieval System) interface from Star Trek. Features warm golds and oranges with blue accents on a deep space background.
+
+<div align="center">
+  <img src="./images/preview-star-trek-service.png" alt="Star Trek LCARS preview service" title="Star Trek LCARS preview service" loading="lazy">
+  <p><em>Classes, decorators, RxJS, signals, async</em></p>
+</div>
+
+<div align="center">
+  <img src="./images/preview-star-trek-html.png" alt="Star Trek LCARS preview html" title="Star Trek LCARS preview html" loading="lazy">
+  <p><em>Angular templates, bindings, pipes</em></p>
+</div>
+
+<div align="center">
+  <img src="./images/preview-star-trek-component.png" alt="Star Trek LCARS preview component" title="Star Trek LCARS preview component" loading="lazy">
+  <p><em>Types, interfaces, enums</em></p>
+</div>
+
+- **Primary accent:** Orange gold `#AB7130`
+- **Strings:** Cream `#F1DABF`
+- **Types / Classes:** Light blue `#4A95B8`
+- **Functions:** Blue `#206383`
+- **Keywords:** Red `#FF7777`
+- **Numbers / Constants:** Gold `#DFAF79`
+
+---
+
 ## Requirements
 
 - **Visual Studio Code** `1.120.0` or higher
@@ -114,7 +142,7 @@ A cool, refreshing dark theme built around teal and turquoise tones with green a
 
 ## Features
 
-All three themes include full support for:
+All four themes include full support for:
 
 - **Semantic highlighting** — precise token colours for TypeScript, JavaScript, HTML, CSS/SCSS
 - **Angular templates** — interpolation `{{ }}`, property bindings `[value]`, event bindings `(click)`, structural directives `*ngIf` / `*ngFor`
