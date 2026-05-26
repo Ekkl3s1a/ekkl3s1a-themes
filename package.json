@@ -2,8 +2,9 @@
   "name": "ekkl3s1a-themes",
   "displayName": "EKKL3S1A Themes",
   "publisher": "ekkl3s1a",
-  "description": "A set of personalized dark color themes: Burgundy, Teal/Turquoise, Purple/Pink.",
-  "version": "0.0.1",
+  "description": "A set of personalized dark color themes: Burgundy, Teal/Turquoise, Purple/Pink and Star Trek: LCARS.",
+  "icon": "images/icon.png",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.120.0"
   },
