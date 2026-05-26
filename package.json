@@ -1,0 +1,42 @@
+{
+  "name": "ekkl3s1a-themes",
+  "displayName": "EKKL3S1A Themes",
+  "publisher": "ekkl3s1a",
+  "description": "A set of personalized dark color themes: Burgundy, Teal/Turquoise, Purple/Pink.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ekkl3s1a/ekkl3s1a-themes"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Burgundy Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/burgundy-night-color-theme.json"
+      },
+      {
+        "label": "Teal Turquoise",
+        "uiTheme": "vs-dark",
+        "path": "./themes/teal-turquoise-color-theme.json"
+      },
+      {
+        "label": "Purple Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purple-pink-dark-color-theme.json"
+      },
+      {
+        "label": "Star Trek: LCARS",
+        "uiTheme": "vs-dark",
+        "path": "./themes/star-trek-color-theme.json"
+      }
+    ]
+
+  }
+}

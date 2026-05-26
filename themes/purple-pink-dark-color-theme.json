@@ -1,0 +1,1050 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Purple Pink (Dark)",
+    "type": "dark",
+    "semanticHighlighting": true,
+    "colors": {
+        "focusBorder": "#FF4DB8",
+
+        "editor.background": "#12071A",
+        "editor.foreground": "#F1E6FF",
+        "editorLineNumber.foreground": "#56406B",
+        "editorLineNumber.activeForeground": "#E8D7FF",
+        "editorCursor.foreground": "#FF4DB8",
+
+        "editor.selectionBackground": "#FF4DB855",
+        "editor.inactiveSelectionBackground": "#FF4DB82A",
+        "editor.lineHighlightBackground": "#190A24",
+        "editorWhitespace.foreground": "#2F1A40",
+        "editorIndentGuide.background1": "#251233",
+        "editorIndentGuide.activeBackground1": "#A855F7",
+
+        "activityBar.background": "#0E0514",
+        "activityBar.foreground": "#F6E9FF",
+        "activityBar.inactiveForeground": "#BDA5D6",
+        "activityBarBadge.background": "#FF4DB8",
+        "activityBarBadge.foreground": "#14061F",
+
+        "sideBar.background": "#0F0616",
+        "sideBar.foreground": "#F1E6FF",
+        "sideBarTitle.foreground": "#F6E9FF",
+
+        "titleBar.activeBackground": "#0E0514",
+        "titleBar.activeForeground": "#F6E9FF",
+        "titleBar.inactiveBackground": "#0B0410",
+        "titleBar.inactiveForeground": "#BDA5D6",
+
+        "statusBar.background": "#0E0514",
+        "statusBar.foreground": "#F6E9FF",
+        "statusBar.debuggingBackground": "#A855F7",
+        "statusBar.debuggingForeground": "#0E0514",
+
+        "tab.activeBackground": "#12071A",
+        "tab.activeForeground": "#F6E9FF",
+        "tab.inactiveBackground": "#0E0514",
+        "tab.inactiveForeground": "#BDA5D6",
+        "tab.activeBorderTop": "#FF4DB8",
+
+        "panel.background": "#0E0514",
+        "panel.border": "#251233",
+
+        "terminal.background": "#12071A",
+        "terminal.foreground": "#F1E6FF",
+        "terminal.ansiRed": "#F87171",
+        "terminal.ansiGreen": "#6EE7B7",
+        "terminal.ansiYellow": "#FFD166",
+        "terminal.ansiBlue": "#60A5FA",
+        "terminal.ansiMagenta": "#FF4DB8",
+        "terminal.ansiCyan": "#C084FC",
+        "terminal.ansiWhite": "#F1E6FF",
+
+        /* =========================
+        BRACKET NESTING (DEPTH)
+        ========================= */
+        "editorBracketHighlight.foreground1": "#FF4DB8",
+        "editorBracketHighlight.foreground2": "#FF7ACD",
+        "editorBracketHighlight.foreground3": "#A78BFA",
+        "editorBracketHighlight.foreground4": "#60A5FA",
+        "editorBracketHighlight.foreground5": "#A855F7",
+        "editorBracketHighlight.foreground6": "#FFD166",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#F87171",
+
+        /* =========================
+        BRACKET GUIDES
+        ========================= */
+        "editorBracketPairGuide.background1": "#FF4DB844",
+        "editorBracketPairGuide.background2": "#FF7ACD44",
+        "editorBracketPairGuide.background3": "#A78BFA44",
+        "editorBracketPairGuide.background4": "#60A5FA44",
+        "editorBracketPairGuide.background5": "#A855F744",
+        "editorBracketPairGuide.background6": "#FFD16644",
+
+        "editorBracketPairGuide.activeBackground1": "#FF4DB888",
+        "editorBracketPairGuide.activeBackground2": "#FF7ACD88",
+        "editorBracketPairGuide.activeBackground3": "#A78BFA88",
+        "editorBracketPairGuide.activeBackground4": "#60A5FA88",
+        "editorBracketPairGuide.activeBackground5": "#A855F788",
+        "editorBracketPairGuide.activeBackground6": "#FFD16688"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": { "foreground": "#9E7BBE", "fontStyle": "italic" }
+        },
+        {
+            "scope": [
+                "string",
+                "punctuation.definition.string"
+            ],
+            "settings": { "foreground": "#FF7ACD" }
+        },
+        {
+            "scope": [
+                "keyword",
+                "storage.type"
+            ],
+            "settings": { "foreground": "#A855F7" }
+        },
+        {
+            "scope": [
+                "keyword",
+                "storage.modifier"
+            ],
+            "settings": { "foreground": "#A855F7" }
+        },
+        {
+            "scope": [
+                "keyword",
+                "keyword.control"
+            ],
+            "settings": { "foreground": "#A855F7" }
+        },
+        {
+            "scope": [
+                "constant.numeric",
+                "constant.language"
+            ],
+            "settings": { "foreground": "#FFD166" }
+        },
+        {
+            "scope": [
+                "entity.name.function"
+            ],
+            "settings": { "foreground": "#A78BFA" }
+        },
+        {
+            "scope": [
+                "support.function"
+            ],
+            "settings": { "foreground": "#7C3AED" }
+        },
+        {
+            "scope": [
+                "entity.name.type",
+                "support.type"
+            ],
+            "settings": { "foreground": "#C4B5FD" }
+        },
+        {
+            "scope": [
+                "variable",
+                "identifier"
+            ],
+            "settings": { "foreground": "#F1E6FF" }
+        },
+
+        /* =========================
+        BRACKET TYPE COLORING
+        ========================= */
+        {
+            "name": "Curly braces {}",
+            "scope": [
+                "punctuation.curlybrace.open",
+                "punctuation.curlybrace.close",
+                "meta.brace.curly"
+            ],
+            "settings": { "foreground": "#FF4DB8" }
+        },
+        {
+            "name": "Square brackets []",
+            "scope": [
+                "punctuation.squarebracket.open",
+                "punctuation.squarebracket.close"
+            ],
+            "settings": { "foreground": "#60A5FA" }
+        },
+        {
+            "name": "Parentheses ()",
+            "scope": [
+                "punctuation.parenthesis.open",
+                "punctuation.parenthesis.close",
+                "meta.brace.round"
+            ],
+            "settings": { "foreground": "#A855F7" }
+        },
+
+        /* =========================
+        ANGULAR / HTML SUPPORT
+        ========================= */
+        {
+            "name": "HTML Tags",
+            "scope": [
+                "entity.name.tag",
+                "entity.name.tag.html"
+            ],
+            "settings": { "foreground": "#FF4DB8" }
+        },
+        {
+            "name": "HTML Closing Tags",
+            "scope": [
+                "entity.name.tag.end",
+                "entity.name.tag.structure"
+            ],
+            "settings": { "foreground": "#FF4DB8" }
+        },
+        {
+            "name": "HTML Attribute Names",
+            "scope": [
+                "entity.other.attribute-name",
+                "entity.other.attribute-name.html"
+            ],
+            "settings": { "foreground": "#FF7ACD" }
+        },
+        {
+            "name": "HTML Attribute Values",
+            "scope": [
+                "string.quoted",
+                "string.quoted.double.html",
+                "string.quoted.single.html"
+            ],
+            "settings": { "foreground": "#A78BFA" }
+        },
+        {
+            "name": "Angular Template Expression Variables",
+            "scope": [
+                "variable.other.readwrite.angular",
+                "variable.other.component",
+                "meta.template.expression variable"
+            ],
+            "settings": {
+                "foreground": "#F1E6FF"
+            }
+        },
+        {
+            "name": "Angular Template Functions",
+            "scope": [
+                "meta.template.expression entity.name.function"
+            ],
+            "settings": {
+                "foreground": "#A78BFA"
+            }
+        },
+
+        /* ==== Angular Bindings ==== */
+        {
+            "name": "Angular Property Binding [value]",
+            "scope": [
+                "meta.directive.property-binding",
+                "meta.attribute.angular"
+            ],
+            "settings": { "foreground": "#60A5FA" }
+        },
+        {
+            "name": "Angular Event Binding (click)",
+            "scope": [
+                "meta.directive.event-binding"
+            ],
+            "settings": { "foreground": "#FFD166" }
+        },
+        {
+            "name": "Angular Structural Directive *ngIf, *ngFor",
+            "scope": [
+                "entity.other.attribute-name.structural.directive.angular",
+                "meta.directive.structural"
+            ],
+            "settings": {
+                "foreground": "#A855F7",
+                "fontStyle": "italic"
+            }
+        },
+
+        /* ==== Angular Interpolation ==== */
+        {
+            "name": "Angular Interpolation {{ }}",
+            "scope": [
+                "meta.interpolation",
+                "meta.template.expression"
+            ],
+            "settings": { "foreground": "#F1E6FF" }
+        },
+        {
+            "name": "Interpolation Brackets",
+            "scope": [
+                "punctuation.definition.interpolation.begin",
+                "punctuation.definition.interpolation.end"
+            ],
+            "settings": { "foreground": "#FF4DB8" }
+        },
+
+        /* =========================
+        ANGULAR PIPES
+        ========================= */
+        {
+            "name": "Angular Pipe Operator |",
+            "scope": [
+                "keyword.operator.pipe",
+                "punctuation.separator.pipe",
+                "keyword.operator.angular"
+            ],
+            "settings": {
+                "foreground": "#FFD166"
+            }
+        },
+        {
+            "name": "Angular Pipe Name (date, async, etc)",
+            "scope": [
+                "support.pipe",
+                "entity.name.function.pipe",
+                "entity.name.function.pipe.angular"
+            ],
+            "settings": {
+                "foreground": "#A855F7"
+            }
+        },
+        {
+            "name": "Angular Async Pipe",
+            "scope": [
+                "entity.name.function.pipe.async",
+                "support.pipe.async"
+            ],
+            "settings": {
+                "foreground": "#FF4DB8",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Angular Pipe Arguments",
+            "scope": [
+                "meta.pipe.arguments",
+                "meta.expression.pipe"
+            ],
+            "settings": {
+                "foreground": "#A78BFA"
+            }
+        },
+        {
+            "name": "Async Pipe Highlight (fallback)",
+            "scope": [
+                "string.unquoted.pipe.async",
+                "meta.expression.pipe.async"
+            ],
+            "settings": {
+                "foreground": "#FF4DB8",
+                "fontStyle": "bold underline"
+            }
+        },
+
+        /* =========================
+        ANGULAR SERVICES (TS)
+        ========================= */
+        {
+            "name": "Injected Services (constructor/private readonly)",
+            "scope": [
+                "variable.parameter",
+                "meta.parameter.object-binding-pattern"
+            ],
+            "settings": {
+                "foreground": "#FF7ACD"
+            }
+        },
+        {
+            "name": "Service Usage (this.userService)",
+            "scope": [
+                "variable.other.object.property",
+                "meta.object-literal.key"
+            ],
+            "settings": {
+                "foreground": "#E9D4F7"
+            }
+        },
+
+        /* =========================
+        ✅ DIRECTIVE vs INPUT vs OUTPUT
+        ========================= */
+        {
+            "name": "Angular Structural Directive (*ngIf, *ngFor)",
+            "scope": [
+                "entity.other.attribute-name.structural.directive.angular",
+                "meta.directive.structural"
+            ],
+            "settings": {
+                "foreground": "#A855F7",
+                "fontStyle": "bold italic"
+            }
+        },
+        {
+            "name": "Angular Input Binding [value]",
+            "scope": [
+                "meta.directive.property-binding",
+                "entity.other.attribute-name.property-binding"
+            ],
+            "settings": {
+                "foreground": "#60A5FA"
+            }
+        },
+        {
+            "name": "Angular Output Binding (click)",
+            "scope": [
+                "meta.directive.event-binding",
+                "entity.other.attribute-name.event-binding"
+            ],
+            "settings": {
+                "foreground": "#FFD166",
+                "fontStyle": "bold"
+            }
+        },
+
+        /* =========================
+        ✅ SYNC vs ASYNC VALUES
+        ========================= */
+
+        /* Observable variables (user$) */
+        {
+            "name": "Observable Variables ($ suffix)",
+            "scope": [
+                "variable.other.readwrite",
+                "variable.other.object.property"
+            ],
+            "settings": {
+                "foreground": "#FF7ACD"
+            }
+        },
+
+        /* Async pipe result emphasis */
+        {
+            "name": "Async Pipe Result",
+            "scope": [
+                "meta.expression.pipe.async",
+                "meta.template.expression.pipe.async"
+            ],
+            "settings": {
+                "foreground": "#FF4DB8",
+                "fontStyle": "bold underline"
+            }
+        },
+
+        /* Pipe chain highlighting */
+        {
+            "name": "Pipe Chain Expression",
+            "scope": [
+                "meta.expression.pipe"
+            ],
+            "settings": {
+                "foreground": "#E9D4F7"
+            }
+        },
+
+        /* =========================
+        ✅ RxJS OPERATORS
+        ========================= */
+        {
+            "name": "RxJS Operators (pipe(map, switchMap, etc))",
+            "scope": [
+                "entity.name.function.rxjs",
+                "support.function.rxjs",
+                "meta.import variable.other.readwrite",
+                "meta.function-call variable.function"
+            ],
+            "settings": {
+                "foreground": "#FFD166",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "RxJS pipe() function",
+            "scope": [
+                "entity.name.function.pipe",
+                "support.function.pipe"
+            ],
+            "settings": {
+                "foreground": "#FF4DB8",
+                "fontStyle": "bold"
+            }
+        },
+
+        /* =========================
+        ✅ Observable Heuristic Highlight
+        ========================= */
+        {
+            "name": "Observable Variables (heuristic)",
+            "scope": [
+                "variable.other.readwrite",
+                "variable.other.object.property",
+                "meta.definition.variable"
+            ],
+            "settings": {
+                "foreground": "#FF7ACD",
+                "fontStyle": "italic"
+            }
+        },
+
+        /* =========================
+        ✅ Angular Pipes Differentiation
+        ========================= */
+
+        /* Built-in pipes (date, async, uppercase...) */
+        {
+            "name": "Angular Built-in Pipes",
+            "scope": [
+                "support.pipe",
+                "entity.name.function.pipe.angular"
+            ],
+            "settings": {
+                "foreground": "#A855F7"
+            }
+        },
+
+        /* Custom pipes */
+        {
+            "name": "Angular Custom Pipes",
+            "scope": [
+                "entity.name.function.pipe.custom",
+                "meta.pipe.custom"
+            ],
+            "settings": {
+                "foreground": "#C084FC",
+                "fontStyle": "italic"
+            }
+        },
+
+        /* =========================
+        ✅ async as user
+        ========================= */
+
+        /* 'as' keyword */
+        {
+            "name": "Angular Template 'as' keyword",
+            "scope": [
+                "keyword.control.as",
+                "meta.template.expression keyword"
+            ],
+            "settings": {
+                "foreground": "#FFD166",
+                "fontStyle": "bold"
+            }
+        },
+
+        /* variable after 'as' */
+        {
+            "name": "Angular Template Alias Variable",
+            "scope": [
+                "meta.template.expression variable.other.alias",
+                "variable.other.alias"
+            ],
+            "settings": {
+                "foreground": "#A78BFA",
+                "fontStyle": "bold"
+            }
+        },
+
+        /* =========================
+        ✅ Template Variables (let item)
+        ========================= */
+        {
+            "name": "Angular Template Variable (let item)",
+            "scope": [
+                "variable.other.template",
+                "meta.template.variable variable"
+            ],
+            "settings": {
+                "foreground": "#A78BFA",
+                "fontStyle": "italic"
+            }
+        },
+
+        /* 'let' keyword */
+        {
+            "name": "Angular 'let' keyword",
+            "scope": [
+                "keyword.declaration.let",
+                "meta.template.expression keyword"
+            ],
+            "settings": {
+                "foreground": "#FF4DB8"
+            }
+        },
+
+        /* =========================
+        ✅ RXJS OPERATOR COLORS
+        ========================= */
+
+        /* map (transform) */
+        {
+            "name": "RxJS map",
+            "scope": [
+                "meta.function-call variable.function.map"
+            ],
+            "settings": {
+                "foreground": "#A78BFA"
+            }
+        },
+
+        /* switchMap (async switching) */
+        {
+            "name": "RxJS switchMap",
+            "scope": [
+                "meta.function-call variable.function.switchmap"
+            ],
+            "settings": {
+                "foreground": "#FF4DB8",
+                "fontStyle": "bold"
+            }
+        },
+
+        /* mergeMap (parallel async) */
+        {
+            "name": "RxJS mergeMap",
+            "scope": [
+                "meta.function-call variable.function.mergemap"
+            ],
+            "settings": {
+                "foreground": "#60A5FA"
+            }
+        },
+
+        /* tap (side effects) */
+        {
+            "name": "RxJS tap",
+            "scope": [
+                "meta.function-call variable.function.tap"
+            ],
+            "settings": {
+                "foreground": "#A855F7",
+                "fontStyle": "italic"
+            }
+        },
+
+        /* filter */
+        {
+            "name": "RxJS filter",
+            "scope": [
+                "meta.function-call variable.function.filter"
+            ],
+            "settings": {
+                "foreground": "#FFD166"
+            }
+        },
+
+        /* catchError */
+        {
+            "name": "RxJS catchError",
+            "scope": [
+                "meta.function-call variable.function.catcherror"
+            ],
+            "settings": {
+                "foreground": "#F87171",
+                "fontStyle": "bold"
+            }
+        },
+
+        /* =========================
+        ✅ ANGULAR TEMPLATE UX STATES
+        ========================= */
+
+        /* Error-like expressions */
+        {
+            "name": "Angular Template Error",
+            "scope": [
+                "invalid",
+                "invalid.illegal",
+                "invalid.deprecated"
+            ],
+            "settings": {
+                "foreground": "#F87171",
+                "fontStyle": "underline"
+            }
+        },
+
+        /* Warning-like (optional/null) */
+        {
+            "name": "Angular Optional / Nullable",
+            "scope": [
+                "keyword.operator.optional",
+                "punctuation.accessor.optional"
+            ],
+            "settings": {
+                "foreground": "#FFD166"
+            }
+        },
+
+        /* Safe navigation operator (?.) */
+        {
+            "name": "Angular Safe Navigation",
+            "scope": [
+                "punctuation.accessor.safe",
+                "keyword.operator.safe-navigation"
+            ],
+            "settings": {
+                "foreground": "#FF7ACD",
+                "fontStyle": "italic"
+            }
+        },
+
+        /* Async loading emphasis */
+        {
+            "name": "Async Loading Context",
+            "scope": [
+                "meta.expression.pipe.async"
+            ],
+            "settings": {
+                "foreground": "#FF4DB8",
+                "fontStyle": "bold underline"
+            }
+        },
+
+        /* =========================
+        ✅ RXJS INTENSITY GRADIENT
+        ========================= */
+
+        /* map – light transform */
+        {
+            "name": "RxJS map (low intensity)",
+            "scope": [
+                "meta.function-call variable.function.map"
+            ],
+            "settings": {
+                "foreground": "#C4B5FD"
+            }
+        },
+
+        /* switchMap – medium */
+        {
+            "name": "RxJS switchMap (medium intensity)",
+            "scope": [
+                "meta.function-call variable.function.switchmap"
+            ],
+            "settings": {
+                "foreground": "#FF4DB8",
+                "fontStyle": "bold"
+            }
+        },
+
+        /* mergeMap – parallel */
+        {
+            "name": "RxJS mergeMap (parallel)",
+            "scope": [
+                "meta.function-call variable.function.mergemap"
+            ],
+            "settings": {
+                "foreground": "#93C5FD"
+            }
+        },
+
+        /* exhaustMap – strongest */
+        {
+            "name": "RxJS exhaustMap (max intensity)",
+            "scope": [
+                "meta.function-call variable.function.exhaustmap"
+            ],
+            "settings": {
+                "foreground": "#60A5FA",
+                "fontStyle": "bold underline"
+            }
+        },
+
+        /* =========================
+        ✅ RXJS FLOW COLORING
+        ========================= */
+
+        /* stream source (observable creation) */
+        {
+            "name": "RxJS Source",
+            "scope": [
+                "meta.definition.variable",
+                "variable.other.readwrite"
+            ],
+            "settings": {
+                "foreground": "#FF4DB8"
+            }
+        },
+
+        /* transformation chain */
+        {
+            "name": "RxJS Transform Stage",
+            "scope": [
+                "meta.function-call"
+            ],
+            "settings": {
+                "foreground": "#A78BFA"
+            }
+        },
+
+        /* async boundary */
+        {
+            "name": "RxJS Async Boundary",
+            "scope": [
+                "meta.function-call variable.function.switchmap",
+                "meta.function-call variable.function.mergemap",
+                "meta.function-call variable.function.exhaustmap"
+            ],
+            "settings": {
+                "foreground": "#60A5FA"
+            }
+        },
+
+        /* side effects */
+        {
+            "name": "RxJS Side Effect",
+            "scope": [
+                "meta.function-call variable.function.tap"
+            ],
+            "settings": {
+                "foreground": "#A855F7",
+                "fontStyle": "italic"
+            }
+        },
+
+        /* =========================
+        ✅ ANGULAR SIGNALS
+        ========================= */
+
+        /* signal() */
+        {
+            "name": "Angular signal()",
+            "scope": [
+                "meta.function-call variable.function.signal"
+            ],
+            "settings": {
+                "foreground": "#FF4DB8",
+                "fontStyle": "bold"
+            }
+        },
+
+        /* computed() */
+        {
+            "name": "Angular computed()",
+            "scope": [
+                "meta.function-call variable.function.computed"
+            ],
+            "settings": {
+                "foreground": "#A78BFA"
+            }
+        },
+
+        /* effect() */
+        {
+            "name": "Angular effect()",
+            "scope": [
+                "meta.function-call variable.function.effect"
+            ],
+            "settings": {
+                "foreground": "#A855F7",
+                "fontStyle": "italic"
+            }
+        },
+
+        /* signal usage count() */
+        {
+            "name": "Angular signal read",
+            "scope": [
+                "meta.function-call variable.function"
+            ],
+            "settings": {
+                "foreground": "#FF7ACD"
+            }
+        }
+
+    ],
+
+    "semanticTokenColors": {
+        /* =========================
+        VARIABLES
+        ========================= */
+        "variable": "#F1E6FF",
+        "variable.readonly": "#FF7ACD",
+        "variable.defaultLibrary": "#C084FC",
+
+        /* =========================
+        PARAMETERS
+        ========================= */
+        "parameter": "#FF7ACD",
+
+        /* =========================
+        FUNCTIONS / METHODS
+        ========================= */
+        "function": "#A78BFA",
+        "method": "#FF4DB8",
+
+        /* =========================
+        TYPES / CLASSES
+        ========================= */
+        "type": "#C4B5FD",
+        "class": "#C4B5FD",
+        "interface": "#DDD6FE",
+        "enum": "#FFD166",
+
+        /* =========================
+        KEYWORDS
+        ========================= */
+        "keyword": "#A855F7",
+
+        /* =========================
+        STRINGS & NUMBERS
+        ========================= */
+        "string": "#FF7ACD",
+        "number": "#FFD166",
+
+        /* =========================
+        SPECIAL CASES
+        ========================= */
+        "property": "#F6E9FF",
+        "namespace": "#C084FC",
+
+        /* =========================
+        MODIFIERS (TS MAGIC ✨)
+        ========================= */
+        "variable:readonly": "#FF7ACD",
+        "parameter:readonly": "#FF7ACD",
+        "function:defaultLibrary": "#7C3AED",
+
+        /* =========================
+        EXTRA SEMANTIC TUNING
+        ========================= */
+        "property.readonly": "#FF7ACD",
+        "property.defaultLibrary": "#C084FC",
+        "parameter.declaration": "#FF7ACD",
+        "variable.local": "#F1E6FF",
+        "function.async": "#FF4DB8",
+        "method.declaration": "#A78BFA",
+        "class.defaultLibrary": "#C4B5FD",
+
+        /* =========================
+        ANGULAR SERVICES (SEMANTIC)
+        ========================= */
+        "variable.injected": "#FF7ACD",
+        "property.injected": "#FF7ACD",
+
+        "class.service": "#C4B5FD",
+        "type.service": "#C4B5FD",
+
+        "variable.member": "#E9D4F7",
+        "property.member": "#E9D4F7",
+
+        /* =========================
+        ✅ SYNC vs ASYNC (SEMANTIC)
+        ========================= */
+
+        /* Observable variables (user$) */
+        "variable.async": {
+            "foreground": "#FF4DB8",
+            "fontStyle": "italic"
+        },
+
+        /* Observable properties */
+        "property.async": {
+            "foreground": "#FF4DB8"
+        },
+
+        /* Reactive streams (RxJS style) */
+        "variable.reactive": "#FF4DB8",
+
+        /* Emphasize injected reactive services */
+        "variable.injected.async": {
+            "foreground": "#A78BFA"
+        },
+
+        /* =========================
+        ✅ RXJS + ASYNC SEMANTIC
+        ========================= */
+
+        /* Observable variables */
+        "variable.observable": {
+            "foreground": "#FF4DB8",
+            "fontStyle": "italic"
+        },
+
+        /* RxJS operators */
+        "function.rxjs": {
+            "foreground": "#FFD166",
+            "fontStyle": "italic"
+        },
+
+        /* Pipe functions */
+        "function.pipe": {
+            "foreground": "#A855F7"
+        },
+
+        /* Async-derived values */
+        "variable.asyncDerived": {
+            "foreground": "#A78BFA"
+        },
+
+        /* =========================
+        ✅ RXJS OPERATOR SEMANTICS
+        ========================= */
+
+        "function.map": "#A78BFA",
+        "function.switchMap": {
+            "foreground": "#FF4DB8",
+            "fontStyle": "bold"
+        },
+        "function.mergeMap": "#60A5FA",
+        "function.tap": {
+            "foreground": "#A855F7",
+            "fontStyle": "italic"
+        },
+        "function.filter": "#FFD166",
+        "function.catchError": {
+            "foreground": "#F87171",
+            "fontStyle": "bold"
+        },
+
+        /* =========================
+        ✅ ANGULAR UX SEMANTICS
+        ========================= */
+
+        "variable.error": {
+            "foreground": "#F87171",
+            "fontStyle": "underline"
+        },
+        "variable.nullable": {
+            "foreground": "#FFD166"
+        },
+        "operator.optional": {
+            "foreground": "#FF7ACD"
+        },
+        "variable.asyncState": {
+            "foreground": "#FF4DB8",
+            "fontStyle": "italic"
+        },
+        "function.exhaustMap": {
+            "foreground": "#60A5FA",
+            "fontStyle": "bold underline"
+        },
+
+        /* =========================
+        ✅ SIGNALS SEMANTIC
+        ========================= */
+
+        "function.signal": {
+            "foreground": "#FF4DB8",
+            "fontStyle": "bold"
+        },
+        "function.computed": {
+            "foreground": "#A78BFA"
+        },
+        "function.effect": {
+            "foreground": "#A855F7",
+            "fontStyle": "italic"
+        },
+        "variable.signal": {
+            "foreground": "#FF4DB8"
+        },
+        "variable.computed": {
+            "foreground": "#A78BFA"
+        }
+    }
+}
